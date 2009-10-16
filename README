@@ -1,0 +1,79 @@
+This is a copy/fork of http://gpl.internetconnection.net/vi/
+by "Internet Connection".
+
+It has been forked merely to try and provide an opportunity 
+for the community at large to improve and modify it as needs
+may arise.
+
+Original Description:
+
+jsvi is a vi-clone written in pure javascript and should work
+in any modern web-browser. jsvi is © 2006-2008 Internet Connection,
+and is available under the terms of the GNU General Public License
+version 3 or (at your option) any later version.
+
+Internet Connection has been providing high-quality web and email
+hosting since 1994, and we have a unique developer-centric offering
+that can help you build web applications faster.
+
+Our support staff is made up of knowledgeable UNIX users and
+administrators that are very comfortable with Internet technologies.
+
+We can help you with any application you may want to use- including
+those that you are developing yourself.
+
+If you don't know vi, you can use the arrow-keys as well to scroll
+around this document.
+
+jsvi has a finger-feel of vi, supports many ed/ex commands, is
+unicode-aware, supports real-time, check-as-you-type spell checking, a small
+subset of HTML for useful for physical markup of text, and host clipboard
+integration.
+
+Regarding vi compatibility, jsvi supports almost all vi-keys, and
+almost all ed/ex (:) commands including <b>:ha</b>rdcopy, and <b>:g//m0</b> but
+noticeably missing are <b>:i</b> and commands that work similar to it, as
+well as certain register operations.
+
+Regarding vim compatibility, jsvi supports vim's VISUAL and VISUAL-LINE
+modes for selections, and has support for a few of vim's motion commands, but
+for the most part, jsvi is a clone of vi and not vim.
+
+It is <b>not</b> based on the so-called "Rich Editor" that is
+built into modern Firefox builds, and MSIE, and as a result, works
+reliably on Safari and Opera.
+
+Some keys, are trapped by your browser, and as a result, simply will not
+function- these keys probably work in another web-browser.
+
+There are inttentional misspellingss in this document;
+you can double-click on a misspelling to see suggestions.
+
+jsvi supports automatic hyperlinks; simply double-click on
+a URL to open it in a new window: http://internetconnection.net/
+
+If you don't know vi, you can start making changes to this document
+by entering <b>-- INSERT --</b> mode, with:
+     i   insert before the current character
+     a   append (insert) after the current character
+     o   insert after the current line
+     O   insert before the current line
+     I   insert at the beginning of the current line
+     A   insert at the end of the current line
+You can return to command mode by pressing Escape, or if you
+do not have an <b>Esc</b>ape key, holding down Ctrl and
+pressing [.
+
+jsvi is is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 3 of the License, or
+(at your option) any later version.
+
+jsvi is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
